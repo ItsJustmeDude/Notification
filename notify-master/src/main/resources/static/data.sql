@@ -1,0 +1,23 @@
+--CREATE TABLE users (
+--    userId INT AUTO_INCREMENT PRIMARY KEY,
+--    first_name VARCHAR(20) NOT NULL,
+--    last_name VARCHAR(20) NOT NULL,
+--    email VARCHAR(30)
+--);
+--
+--CREATE TABLE notifications (
+--    notificationId INT AUTO_INCREMENT PRIMARY KEY,
+--    message VARCHAR(100) NOT NULL,
+--    is_read BOOLEAN,
+--    created_at DATE
+--);
+--
+--INSERT INTO users (first_name, last_name, email) VALUES
+--    ("Ajay", "Roy", "aroy@gmail.com"),
+--    ("Ashay", "Lal", "ashaylal@gmail.com"),
+--    ("Arun", "Das", "arundas@gmail.com");
+--
+--INSERT INTO notifications (message, is_read, created_at) VALUES
+--    ("Welcome User", TRUE, '2021-01-01'),
+--    ("Password is going to expire in few days", FALSE, '2021-01-03'),
+--    ("You received a connection request", FALSE, '2021-01-02');
